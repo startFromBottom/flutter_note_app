@@ -10,5 +10,5 @@ abstract class NotesEvent with _$NotesEvent {
   const factory NotesEvent.deleteNote(Note note) = DeleteNote;
   const factory NotesEvent.restoreNote() = RestoreNote;
   const factory NotesEvent.changeOrder(NoteOrder noteOrder) = ChangeOrder;
-  // const factory NotesEvent.toggleOrderSection() = ToggleOrderSection;
+  const factory NotesEvent.toggleOrderSection() = ToggleOrderSection;
 }

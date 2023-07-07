@@ -89,7 +89,7 @@ class _AddEditNoteScreenState extends State<AddEditNoteScreen> {
             bottom: 16,
             top: 48,
           ),
-          child: Column(
+          child: ListView(
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
