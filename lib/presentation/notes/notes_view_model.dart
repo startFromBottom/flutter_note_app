@@ -17,7 +17,9 @@ class NotesViewModel with ChangeNotifier {
 
   NotesViewModel({
     required this.repository,
-  });
+  }) {
+    _loadNotes();
+  }
 
   void onEvent(NotesEvent event) {
     event.when(
